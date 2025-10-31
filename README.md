@@ -31,50 +31,6 @@ Store captured data in a simple database (or file) for analysis
 
 Visualise results with Java UI components (charts)
 
-Getting Started
-Prerequisites
-
-Java JDK (version 8 or higher)
-
-Python 3.x
-
-Required libraries for Python sniffer (e.g., scapy, socket, pyshark)
-
-Any required Java dependencies for UI/charting (e.g., JFreeChart or similar)
-
-Installation & Setup
-
-Clone the repository:
-
-git clone https://github.com/RohanAM2006/Packet-sniffer.git
-cd Packet-sniffer
-
-
-For Python sniffer:
-
-cd sniffer-folder
-pip install -r requirements.txt
-python sniffer.py
-
-
-For Java analytics and UI:
-
-cd java-folder
-javac *.java
-java index
-
-
-Configure database or data storage if needed (see packetSnifferdb folder).
-
-Usage
-
-Run the sniffer.py script to start capturing packets on the selected interface.
-
-Let it run to collect network traffic for your desired duration.
-
-Open the Java UI application (via index.java) to visualise metrics: packet size histogram, payload size, protocol time graph, top talkers, etc.
-
-Use the reports/graphs to get insights into your network traffic.
 
 Project Structure
 Packet-sniffer/
