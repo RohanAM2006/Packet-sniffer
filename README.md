@@ -1,7 +1,13 @@
-Packet-sniffer
+
 Project Overview
 
 This project implements a simple network packet sniffer and analytics tool. It captures network traffic, analyses protocols, payload sizes, top talkers, time-based traffic graphs, and presents visualisations of the gathered data.
+
+
+<img width="1267" height="131" alt="image" src="https://github.com/user-attachments/assets/c39c1121-5326-4db0-b585-9ad3933be9b6" />
+<img width="1210" height="711" alt="image" src="https://github.com/user-attachments/assets/1a667da4-859d-45cf-bfdf-05e67368ea7f" />
+
+
 
 Key Features
 
